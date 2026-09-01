@@ -1,6 +1,49 @@
-# area-51
+# SENTINEL AI: THE GAMING BRAIN THAT NEVER BLINKS
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+A high-contrast interactive prototype for iQOO&apos;s Sentinel AI gaming intelligence system.
+
+## What it does
+
+Sentinel simulates a live gaming-readiness console that monitors frame stability, touch latency, thermal headroom, power draw, and network jitter. Use the simulation controls to push the device from **Stable** to **Critical**, inspect the event stream, pause telemetry, reset the session, and apply Sentinel&apos;s smart power-routing intervention.
+
+## Tech stack
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Lucide React icons
+
+## Getting started
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `pnpm dev` | Start the development server |
+| `pnpm build` | Create a production build |
+| `pnpm start` | Serve the production build |
+
+## Product direction
+
+This is a front-end concept prototype focused on the visual language and interaction model for Sentinel AI. Telemetry values are simulated in the browser; connecting the console to real device diagnostics, game telemetry, or an AI inference service would be the next implementation step.
+
+## Suggested tacky title
+
+**SENTINEL AI: THE GAMING BRAIN THAT NEVER BLINKS**
+
+It is intentionally loud, dramatic, and a little tacky to match the over-the-top gaming-tech positioning.
+
+## Built with v0
+
+This repository is linked to a [v0](https://v0.app) project.
 
 ## Built with v0
 
