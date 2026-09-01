@@ -1,33 +1,45 @@
-# area-51
+# iQOO Sentinel AI Interactive Prototype
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+> **"Ready before you tap play."**
 
-## Built with v0
+This is an interactive prototype for the **iQOO Sentinel AI**, a concept that demonstrates how AI can proactively prepare a gaming smartphone for a session.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+The prototype visualizes the pre-game workflow for a popular mobile game (BGMI). It shows how the device intelligently readies itself by managing system resources, verifying the network, and implementing a charge strategy, all based on a predictive "Habit Model."
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_5TkKMU5hCEQ7FqMj377uw50JXhIS)
+## Overview
 
-## Getting Started
+The Sentinel AI concept moves beyond reactive performance management. Instead of only responding to in-game demands, it uses a learned habit model to anticipate when a user is about to play. This allows the device to enter a "Pre-game window" and prepare the system in advance.
 
-First, run the development server:
+This prototype simulates that experience, providing a visual dashboard of the device's readiness.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Predictive Pre-game Window:** The interface simulates entering a pre-game state based on a habit model confidence threshold.
+- **Gaming Readiness Score:** A combined score (0-100) that reflects the device's overall readiness, factoring in battery, thermal, network, memory, and charging status.
+- **Live System Metrics:** Displays key performance indicators in real-time:
+    - Thermal (°C)
+    - Battery (%)
+    - Network Status
+    - Free Memory (%)
+- **Automated Preparation Tasks:** The prototype visualizes the AI performing several actions to get the device ready:
+    - Verifying the network connection
+    - Setting a charging strategy
+    - Trimming background applications
+    - Pre-cooling the device
+    - Loading the game profile
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How It Works
 
-## Learn More
+1.  **Prediction:** The "Habit Model" detects a pattern and predicts an upcoming gaming session.
+2.  **Preparation:** Once the confidence threshold is crossed, the device enters a "Pre-game window."
+3.  **Optimization:** The Sentinel AI begins a series of optimizations to ensure peak performance (clearing memory, cooling the device, etc.).
+4.  **Readiness:** The system aims to be fully ready by the predicted start time (e.g., 8:00 PM).
 
-To learn more, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+This is a front-end interactive prototype. For a detailed list of the technologies and tools used, please see the [STACK.md](STACK.md) file.
+
+
+LINK :
+
+https://area-51-4i0upkd7a-ayushisharma94644-9502s-projects.vercel.app/
